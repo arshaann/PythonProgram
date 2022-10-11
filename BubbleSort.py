@@ -1,5 +1,8 @@
-A = [1,5,3,2,7,8]
- 
+A = []
+n = int(input("Enter the number of elemnts: "))
+for i in range (n):
+	element = int(input("Enter the element: "))  #To take input from the user
+	A.append(element)    
 l = len(A)
 i = 0
 print(f"Old list Was {A}")
